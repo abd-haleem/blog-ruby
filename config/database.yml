@@ -22,7 +22,7 @@ development:
   password: postgres
   host: localhost
   port: 5432
-  database: udemy_course_development
+  database: udemy_blog_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -62,7 +62,7 @@ test:
   password: postgres
   host: localhost
   port: 5432
-  database: udemy_course_test
+  database: udemy_blog_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
